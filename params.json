@@ -1,7 +1,7 @@
 {
   "name": "BIC-MNI.GitHub.io",
   "tagline": "BIC-MNI Software repository homepage",
-  "body": "### Welcome to BIC-MNI Software repository\r\nThis software repository contains open-source tools developed at the \r\n[McConnell Brain Imaging Centre, Montreal Neurological Institute](https://www.mcgill.ca/bic/)\r\nThe main documentation site for this repository is located at [wikibooks](https://en.wikibooks.org/wiki/MINC)\r\nAlso, concise man pages for various minc tools are located at [http://bic-mni.github.io/man-pages/]\r\n\r\n### Support \r\nContact @vfonov, @andrewjanke or @rdvincent if you have any questions",
+  "body": "### Welcome to BIC-MNI Software repository\r\nThis software repository contains open-source tools developed at the \r\n[McConnell Brain Imaging Centre, Montreal Neurological Institute](https://www.mcgill.ca/bic/)\r\n\r\nThe main documentation site for this repository is located at [wikibooks](https://en.wikibooks.org/wiki/MINC)\r\n\r\nAlso, concise man pages for various minc tools are located at [http://bic-mni.github.io/man-pages/]\r\n\r\n### Support \r\nContact @vfonov, @andrewjanke or @rdvincent if you have any questions",
   "google": "",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
