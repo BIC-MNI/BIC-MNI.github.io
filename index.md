@@ -66,8 +66,7 @@ project (standard_pipeline.pl) Everything is currently installed in /opt/minc , 
     * [0.1.3 MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-testsuite-0.1.3-20131212.dmg)
 
 ### V2 [Version 1.9.11](#1.9.11) 
-This version includes ITK-4.9, latest version of Elastix, ANTs and C3D - all with minc support.
-**WARNING* some basic tools produce results incompatible with version 1.00.XX Test-suite will fail due to changes in minctracc
+This version includes ITK-4.9, latest version of Elastix, ANTs and C3D - all with minc support. **WARNING* some basic tools produce results incompatible with version 1.00.XX Test-suite will fail due to changes in minctracc
 All files will be installed into /opt/minc-itk4 in order to co-exist with version 1 of minc-toolkit
 
 * 64 bit tools
@@ -86,7 +85,7 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
     * [1.9.11 OpenSUSE 13.2](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.11-20160202-openSUSE-project_13.2-x86_64.rpm)
   * MacOS X
     * [1.9.11 MacOS X 10.11 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.9.11-20160202-Darwin-10.11-x86_64.dmg)
-* 32 bit tools '''Caveat Emptor:''' Unfortunately, currently @@mincbeast@@ is unable to run in 32bit mode properly, so @@standard_pipelene.pl@@ will fail 
+* 32 bit tools '''Caveat Emptor:''' Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail 
   * Ubuntu
     * [1.9.11 Ubuntu 10.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.11-20160202-Ubuntu_10.04-i686.deb) 
     * [1.9.11 Ubuntu 12.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.11-20160202-Ubuntu_12.04-i686.deb) 
@@ -104,7 +103,8 @@ Previous versions are archived in [http://packages.bic.mni.mcgill.ca/minc-toolki
 * install dependencies: `sudo apt-get install libc6 libstdc++6 imagemagick perl `
 * optional dependency is octave, which is currently used only by xfmavg script.
 * download corresponding binary packages 
-* run `sudo dpkg -i minc-toolkit-<version>.deb minc-toolkit-testsuite-<version>.deb bic-mni-models-<version>.deb beast-library-<version>.deb `. Sometimes it will be necessary to run `sudo apt-get install -f` afterwards to install missing libraries.
+* run `sudo dpkg -i minc-toolkit-<version>.deb minc-toolkit-testsuite-<version>.deb bic-mni-models-<version>.deb beast-library-<version>.deb `. 
+  Sometimes it will be necessary to run `sudo apt-get install -f` afterwards to install missing libraries.
 * Visualization programs : register, display and ray_trace rely on working OpenGL , install appropriate drivers or software emulation `sudo apt-get install libgl1-mesa-glx libglu1-mesa`
 #### On CentOS / OpenSuse / Fedora
 * install dependencies: `sudo yum install glibc libstdc++ ImageMagick perl`
@@ -123,7 +123,7 @@ Previous versions are archived in [http://packages.bic.mni.mcgill.ca/minc-toolki
 
 ### Running test suite
 Test data is installed in `/opt/minc/share/testsuite/`.  To run the test, execute `/opt/minc/run_tests.sh <prefix>`, it will take around
-an hour on  a modern PC, the output will be in @@<prefix>/00200@@  and @@<prefix>/00201@@ and the log file will be saved in
+an hour on  a modern PC, the output will be in `<prefix>/00200`  and `<prefix>/00201` and the log file will be saved in
 `<prefix>/minc-toolkit-test-<date>.log`.  The results of the local test will be compared to a file containing the results from a baseline test to determine if the tools have been installed and run correctly. 
 
 ### Building from the source
