@@ -5,7 +5,7 @@
 This software repository contains open-source tools developed at the McConnell Brain Imaging Centre, Montreal Neurological Institute
 The main documentation site for this repository is located at [wikibooks](https://en.wikibooks.org/wiki/MINC)
 
-Also, concise man pages for various minc tools are located at [github](http://bic-mni.github.io/man-pages/)
+Also, concise man pages for various minc tools are located at [bic-mni.github.io/man-pages](http://bic-mni.github.io/man-pages/)
 
 ## Support
 Contact @vfonov, @andrewjanke or @rdvincent if you have any questions
@@ -119,7 +119,6 @@ Previous versions are archived in [[http://packages.bic.mni.mcgill.ca/minc-toolk
 ### Using
 * Version **1.0.XX (stable)**:
    source the environment in `/opt/minc/minc-toolkit-config.sh` for bash or `/opt/minc/minc-toolkit-config.csh` for tcsh 
-
 * Version **1.9.XX (version 2 )**:
    source the environment in `/opt/minc-itk4/minc-toolkit-config.sh` for bash or `/opt/minc-itk4/minc-toolkit-config.csh` for tcsh 
 
