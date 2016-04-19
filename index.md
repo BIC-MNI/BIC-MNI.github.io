@@ -131,3 +131,10 @@ an hour on  a modern PC, the output will be in @@<prefix>/00200@@  and @@<prefix
 
 ### Building from the source
 Consult [minc-toolkit on github](https://github.com/BIC-MNI/minc-toolkit) or [minc-toolkit-v2 on github](https://github.com/BIC-MNI/minc-toolkit-v2) for details and to download latest version of the software.
+
+
+## Additional software ported to support MINC file format
+### ITK-SNAP 3.2
+* MacOS X
+  * [MacOS X 10.7 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-x86_64-qt4.dmg]] - QT 4 version (doesn't support retina display)
+  * [MacOS X 10.11 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-10.11-x86_64-qt5.dmg) - QT 5 version
