@@ -18,7 +18,8 @@ author_gravatar:  e42cb21337ad4c2484538fe8a301d9a0 # Gravatar md5 hash
 
 gems:
   - jekyll-sitemap
-
+  - jekyll-mentions
+  
 # Build settings
 markdown: kramdown
 
@@ -46,5 +47,4 @@ defaults:
       type:         "posts"
     values:
       layout:       "default"
-
 
