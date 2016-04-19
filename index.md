@@ -11,7 +11,6 @@ Also, concise man pages for various minc tools are located at [bic-mni.github.io
 Contact @vfonov, @andrewjanke or @rdvincent if you have any questions
 
 ## MINC Tool Kit
-
 This toolkit contains most of the commonly used minc tools in one precompiled 32 and 64bit binary packages of Debian, Ubuntu, RedHat and Mac OS X.
 It includes most of the standard minc tools, Display, Register and a  basic image processing pipeline based on the one developed for NIHPD
 project (standard_pipeline.pl) Everything is currently installed in /opt/minc , to avoid conflict with standard /usr/local/bic location.
@@ -24,7 +23,6 @@ project (standard_pipeline.pl) Everything is currently installed in /opt/minc , 
   Also includes new experimental software based on ITK 4.XX and latest versions of ANTS,Elastix and C3D. 
   Use this version if you are interested in the latest versions of ANTs and Elastix or running more recent software pipelines 
   (in particular patch-based segmentation).
-
 
 ### [Version 1.0.08](#1.0.08) (currently stable)
 - 64 bit tools
@@ -44,7 +42,7 @@ project (standard_pipeline.pl) Everything is currently installed in /opt/minc , 
   * MacOS X 
     * [1.0.08 MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.0.08-20160205-Darwin-10.7-x86_64.dmg)
     * [1.0.08 MacOS X 10.11](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.0.08-20160205-Darwin-10.11-x86_64.dmg)
-- 32 bit tools '''Caveat Emptor:''' Unfortunately, currently @@mincbeast@@ is unable to run in 32bit mode properly, so @@standard_pipelene.pl@@ will fail (and the test-suite will also fail).
+- 32 bit tools **Caveat Emptor:** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail (and the test-suite will also fail).
   * Ubuntu
     * [1.0.08 Ubuntu 10.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.08-20160205-Ubuntu_10.04-i686.deb) 
     * [1.0.08 Ubuntu 12.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.08-20160205-Ubuntu_12.04-i686.deb)
@@ -69,7 +67,7 @@ project (standard_pipeline.pl) Everything is currently installed in /opt/minc , 
 
 ### V2 [Version 1.9.11](#1.9.11) 
 This version includes ITK-4.9, latest version of Elastix, ANTs and C3D - all with minc support.
-'''WARNING''' some basic tools produce results incompatible with version 1.00.XX Test-suite will fail due to changes in minctracc
+**WARNING* some basic tools produce results incompatible with version 1.00.XX Test-suite will fail due to changes in minctracc
 All files will be installed into /opt/minc-itk4 in order to co-exist with version 1 of minc-toolkit
 
 * 64 bit tools
@@ -99,7 +97,7 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
     * [1.9.11 tar.bz2 archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.11-20160202.tar.bz2)
 
 ### Previous versions
-Previous versions are archived in [[http://packages.bic.mni.mcgill.ca/minc-toolkit/]]
+Previous versions are archived in [http://packages.bic.mni.mcgill.ca/minc-toolkit/](http://packages.bic.mni.mcgill.ca/minc-toolkit/)
 
 ### Installing
 #### On Debian/Ubuntu 
@@ -135,5 +133,5 @@ Consult [minc-toolkit on github](https://github.com/BIC-MNI/minc-toolkit) or [mi
 ## Additional software ported to support MINC file format
 ### ITK-SNAP 3.2
 * MacOS X
-  * [MacOS X 10.7 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-x86_64-qt4.dmg]] - QT 4 version (doesn't support retina display)
+  * [MacOS X 10.7 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-x86_64-qt4.dmg) - QT 4 version (doesn't support retina display)
   * [MacOS X 10.11 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-10.11-x86_64-qt5.dmg) - QT 5 version
