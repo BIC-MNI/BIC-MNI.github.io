@@ -1,7 +1,7 @@
 ---
+layout: default
+title: BIC-MNI Software repository
 ---
-# Welcome to BIC-MNI Software repository
-
 ## Contents:
 * [MINC Toolkit](#MINC-Tool-Kit)
   * [MINC Toolkit versions](#notes-about-versions)
