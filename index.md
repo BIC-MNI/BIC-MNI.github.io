@@ -2,6 +2,23 @@
 ---
 # Welcome to BIC-MNI Software repository
 
+## Contents:
+* [MINC Toolkit](#MINC-Tool-Kit)
+  * [MINC Toolkit versions](#notes-about-versions)
+  * Version 1 [Version 1.0.08](#version-10081008-currently-stable)
+  * Version 2 [Version 1.9.11](#v2-version-19111911)
+  * [Previous versions](#previous-versions)
+  * [Installing](#installing)
+    * [On Debian/Ubuntu](#on-debianubuntu)
+    * [On CentOS / OpenSuse / Fedora](#on-centos--opensuse--fedora)
+    * [On MacOS X 10.7 and 10.9](#on-macos-x-107-and-109)
+  * [Using](#using)
+  * [Running test suite](#running-test-suite)
+  * [Building from the source](#building-from-the-source)
+* [Additional software ported to support MINC file format](#additional-software-ported-to-support-minc-file-format)
+  * [ITK-SNAP 3.2](#itk-snap-32)
+
+
 This software repository contains open-source tools developed at the McConnell Brain Imaging Centre, Montreal Neurological Institute
 The main documentation site for this repository is located at [wikibooks](https://en.wikibooks.org/wiki/MINC)
 
@@ -96,16 +113,19 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
     * [1.9.11 tar.bz2 archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.11-20160202.tar.bz2)
 
 ### Previous versions
+
 Previous versions are archived in [http://packages.bic.mni.mcgill.ca/minc-toolkit/](http://packages.bic.mni.mcgill.ca/minc-toolkit/)
 
 ### Installing
-#### On Debian/Ubuntu 
-* install dependencies: `sudo apt-get install libc6 libstdc++6 imagemagick perl `
+
+#### On Debian/Ubuntu
+* install dependencies: `sudo apt-get install libc6 libstdc++6 imagemagick perl`
 * optional dependency is octave, which is currently used only by xfmavg script.
 * download corresponding binary packages 
 * run `sudo dpkg -i minc-toolkit-<version>.deb minc-toolkit-testsuite-<version>.deb bic-mni-models-<version>.deb beast-library-<version>.deb `. 
   Sometimes it will be necessary to run `sudo apt-get install -f` afterwards to install missing libraries.
 * Visualization programs : register, display and ray_trace rely on working OpenGL , install appropriate drivers or software emulation `sudo apt-get install libgl1-mesa-glx libglu1-mesa`
+
 #### On CentOS / OpenSuse / Fedora
 * install dependencies: `sudo yum install glibc libstdc++ ImageMagick perl`
 * install downloaded rpm packages 
@@ -129,8 +149,8 @@ an hour on  a modern PC, the output will be in `<prefix>/00200`  and `<prefix>/0
 ### Building from the source
 Consult [minc-toolkit on github](https://github.com/BIC-MNI/minc-toolkit) or [minc-toolkit-v2 on github](https://github.com/BIC-MNI/minc-toolkit-v2) for details and to download latest version of the software.
 
-
 ## Additional software ported to support MINC file format
+
 ### ITK-SNAP 3.2
 * MacOS X
   * [MacOS X 10.7 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-x86_64-qt4.dmg) - QT 4 version (doesn't support retina display)
