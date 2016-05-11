@@ -1,16 +1,11 @@
-# Welcome to Jekyll!
+# Jekyll configuration for bic-mni.github.io site
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: BIC-MNI Software tools
 email: vladimir.fonov@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Collection of software tools released by the BIC-MNI.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of the site, e.g. /blog
 url: "http://bic-mni.github.io/" # the base hostname & protocol for your site
 twitter_username: vfonov
 github_username:  vfonov
@@ -19,7 +14,7 @@ author_gravatar:  e42cb21337ad4c2484538fe8a301d9a0 # Gravatar md5 hash
 gems:
   - jekyll-sitemap
   - jekyll-mentions
-  
+
 # Build settings
 markdown: kramdown
 
@@ -30,7 +25,7 @@ compress_html:
     clippings:      all
     ingore:
         envs:       [ "test" ]
-        
+
 defaults:
   -
     scope:

@@ -7,6 +7,7 @@ title: BIC-MNI Software repository
   * [MINC Toolkit versions](#notes-about-versions)
   * Version 1 [Version 1.0.08](#version-10081008-currently-stable)
   * Version 2 [Version 1.9.11](#v2-version-19111911)
+  * [Data files and models](#data-files-and-models)
   * [Previous versions](#previous-versions)
   * [Installing](#installing)
     * [On Debian/Ubuntu](#on-debianubuntu)
@@ -68,16 +69,7 @@ project (standard_pipeline.pl) Everything is currently installed in /opt/minc , 
 - Source code
   * minc-toolkit complete source archive
     * [1.0.08 tar.gz archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-1.0.08-20160205.tar.bz2)
-- Data files and scripts
-  * BEaST segmentation library, needed to run mincbeast software for brain extraction
-    * [1.1.0 Debian/Ubuntu](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/beast-library-1.1.0-20121212.deb) 
-    * [1.1.0 CentOS](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/beast-library-1.1.0-20121212.rpm)
-    * [1.1.0 MacOS X](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/beast-library-1.1.0-20121212.dmg)
-  * bic-mni-models  anatomical template library,  includes models from [ICBM 2009 template](http://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009)
-    * [0.1.1 Debian/Ubuntu](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/bic-mni-models-0.1.1-20120421.deb)
-    * [0.1.1 CentOS 6.4](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/bic-mni-models-0.1.1-20120421.rpm)
-    * [0.1.1 MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/bic-mni-models-0.1.1-20120421.dmg)
-  * minc-toolkit-testsuite, 
+- Testsuite (under development)
     * [0.1.3 Debian/Ubuntu](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-testsuite-0.1.3-20131212.deb)
     * [0.1.3 CentOS 6.4](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-testsuite-0.1.3-20131212.rpm) 
     * [0.1.3 MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-testsuite-0.1.3-20131212.dmg)
@@ -112,6 +104,17 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
   * minc-toolkit complete source archive
     * [1.9.11 tar.bz2 archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.11-20160202.tar.bz2)
 
+### Data files and models
+These packages contain anatomical models needed for standard pipeline, all files are installed into `/opt/minc/share`
+  * BEaST segmentation library, needed to run mincbeast software for brain extraction 
+    * [1.1.0 Debian/Ubuntu](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/beast-library-1.1.0-20121212.deb) 
+    * [1.1.0 CentOS](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/beast-library-1.1.0-20121212.rpm)
+    * [1.1.0 MacOS X](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/beast-library-1.1.0-20121212.dmg)
+  * bic-mni-models  anatomical template library,  includes models from [ICBM 2009 template](http://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009)
+    * [0.1.1 Debian/Ubuntu](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/bic-mni-models-0.1.1-20120421.deb)
+    * [0.1.1 CentOS 6.4](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/bic-mni-models-0.1.1-20120421.rpm)
+    * [0.1.1 MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/bic-mni-models-0.1.1-20120421.dmg)
+    
 ### Previous versions
 
 Previous versions are archived in [http://packages.bic.mni.mcgill.ca/minc-toolkit/](http://packages.bic.mni.mcgill.ca/minc-toolkit/)
