@@ -60,7 +60,7 @@ project (standard_pipeline.pl) Everything is currently installed in /opt/minc , 
   * MacOS X 
     * [1.0.08 MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.0.08-20160205-Darwin-10.7-x86_64.dmg)
     * [1.0.08 MacOS X 10.11](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.0.08-20160205-Darwin-10.11-x86_64.dmg)
-- 32 bit tools **Caveat Emptor:** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail (and the test-suite will also fail).
+- 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail (and the test-suite will also fail).
   * Ubuntu
     * [1.0.08 Ubuntu 10.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.08-20160205-Ubuntu_10.04-i686.deb) 
     * [1.0.08 Ubuntu 12.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.08-20160205-Ubuntu_12.04-i686.deb)
@@ -94,7 +94,7 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
     * [1.9.11 OpenSUSE 13.2](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.11-20160202-openSUSE-project_13.2-x86_64.rpm)
   * MacOS X
     * [1.9.11 MacOS X 10.11 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.9.11-20160202-Darwin-10.11-x86_64.dmg)
-* 32 bit tools '''Caveat Emptor:''' Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail 
+* 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail 
   * Ubuntu
     * [1.9.11 Ubuntu 10.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.11-20160202-Ubuntu_10.04-i686.deb) 
     * [1.9.11 Ubuntu 12.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.11-20160202-Ubuntu_12.04-i686.deb) 
