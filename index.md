@@ -75,7 +75,7 @@ project (standard_pipeline.pl) Everything is currently installed in /opt/minc , 
     * [0.1.3 MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-testsuite-0.1.3-20131212.dmg)
 
 ### V2 [Version 1.9.11](#1.9.11) 
-This version includes ITK-4.9, latest version of Elastix, ANTs and C3D - all with minc support. **WARNING* some basic tools produce results incompatible with version 1.00.XX Test-suite will fail due to changes in minctracc
+This version includes ITK-4.9, latest version of Elastix, ANTs and C3D - all with minc support. **WARNING** some basic tools produce results incompatible with version 1.00.XX Test-suite will fail due to changes in minctracc
 All files will be installed into /opt/minc-itk4 in order to co-exist with version 1 of minc-toolkit
 
 * 64 bit tools
@@ -106,6 +106,7 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
 
 ### Data files and models
 These packages contain anatomical models needed for standard pipeline, all files are installed into `/opt/minc/share`
+
   * BEaST segmentation library, needed to run mincbeast software for brain extraction 
     * [1.1.0 Debian/Ubuntu](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/beast-library-1.1.0-20121212.deb) 
     * [1.1.0 CentOS](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/beast-library-1.1.0-20121212.rpm)
@@ -147,7 +148,8 @@ Previous versions are archived in [http://packages.bic.mni.mcgill.ca/minc-toolki
 ### Running test suite
 Test data is installed in `/opt/minc/share/testsuite/`.  To run the test, execute `/opt/minc/run_tests.sh <prefix>`, it will take around
 an hour on  a modern PC, the output will be in `<prefix>/00200`  and `<prefix>/00201` and the log file will be saved in
-`<prefix>/minc-toolkit-test-<date>.log`.  The results of the local test will be compared to a file containing the results from a baseline test to determine if the tools have been installed and run correctly. 
+`<prefix>/minc-toolkit-test-<date>.log`.  The results of the local test will be compared to a file containing the results from 
+a baseline test to determine if the tools have been installed and run correctly. 
 
 ### Building from the source
 Consult [minc-toolkit on github](https://github.com/BIC-MNI/minc-toolkit) or [minc-toolkit-v2 on github](https://github.com/BIC-MNI/minc-toolkit-v2) for details and to download latest version of the software.
