@@ -7,6 +7,7 @@ title: BIC-MNI Software repository
   * [MINC Toolkit versions](#notes-about-versions)
   * Version 1 [Version 1.0.08](#version-10081008-currently-stable)
   * Version 2 [Version 1.9.11](#v2-version-19111911)
+  * [Virtual Machine](#virtual-machine)
   * [Data files and models](#data-files-and-models)
   * [Previous versions](#previous-versions)
   * [Installing](#installing)
@@ -103,6 +104,11 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
 * Source code
   * minc-toolkit complete source archive
     * [1.9.11 tar.bz2 archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.11-20160202.tar.bz2)
+
+### Virtual Machine
+
+A virtual machine containing minc-toolkit, as well as a number of tools built upon it is available for download at [CoBrALab/MINC-VM](https://github.com/CobraLab/MINC-VM)
+It is kept up to date with the latest releases of minc-toolkit and additional tools.
 
 ### Data files and models
 These packages contain anatomical models needed for standard pipeline, all files are installed into `/opt/minc/share`
