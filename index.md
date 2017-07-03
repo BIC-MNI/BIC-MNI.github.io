@@ -5,8 +5,8 @@ title: BIC-MNI Software repository
 ## Contents:
 * [MINC Toolkit](#MINC-Tool-Kit)
   * [MINC Toolkit versions](#notes-about-versions)
-  * Version 2 [Version 1.9.15](#v2) 
-  * Version 1 [Version 1.0.09](#v1) *Legacy*
+  * Version 2 [Version 1.9.15](#v2-version-1915) 
+  * Version 1 [Version 1.0.09](#v1-version-1009-legacy) *Legacy*
   * [Virtual Machine](#virtual-machine)
   * [Data files and models](#data-files-and-models)
   * [Previous versions](#previous-versions)
@@ -42,7 +42,7 @@ project (standard_pipeline.pl) Everything is currently installed in /opt/minc , 
   The standard minc-based programs are kept up-to date, but new experimental software is not included. Use this version if you need 
   only basic minc tools (i.e register/Display/xdisp) or you are running a legacy image processing pipeline that does not require new tools.
 
-### V2 [Version 1.9.15](#v2) 
+### V2 Version 1.9.15
 This version includes ITK-4.9, latest version of Elastix, ANTs and C3D - all with minc support. **WARNING** some basic tools produce results incompatible with version 1.00.XX Test-suite will fail due to changes in minctracc
 All files will be installed into /opt/minc-itk4 in order to co-exist with version 1 of minc-toolkit
 
@@ -64,7 +64,7 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
   * minc-toolkit complete source archive
     * [1.9.15 tar.bz2 archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.15-20170529.tar.bz2)
 
-### [Version 1.0.09](#v1) *legacy*
+### V1 Version 1.0.09 *legacy*
 - 64 bit tools
   * Ubuntu
     * [1.0.09 Ubuntu 14.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_14.04-x86_64.deb)
