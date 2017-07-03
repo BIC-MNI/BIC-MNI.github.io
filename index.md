@@ -133,8 +133,8 @@ Previous versions are archived in [http://packages.bic.mni.mcgill.ca/minc-toolki
 * Version **1.9.15 (version 2)**:
    source the environment in `/opt/minc/1.9.15/minc-toolkit-config.sh` for bash or `/opt/minc/1.9.15/minc-toolkit-config.csh` for tcsh 
 
-### Running test suite **Currently Broken**
-Test data is installed in `/opt/minc/share/testsuite/`.  To run the test, execute `/opt/minc/run_tests.sh <prefix>`, it will take around
+### Running test suite 
+**Currently Broken** Test data is installed in `/opt/minc/share/testsuite/`.  To run the test, execute `/opt/minc/run_tests.sh <prefix>`, it will take around
 an hour on  a modern PC, the output will be in `<prefix>/00200`  and `<prefix>/00201` and the log file will be saved in
 `<prefix>/minc-toolkit-test-<date>.log`.  The results of the local test will be compared to a file containing the results from 
 a baseline test to determine if the tools have been installed and run correctly. 
