@@ -13,7 +13,7 @@ title: BIC-MNI Software repository
   * [Installing](#installing)
     * [On Debian/Ubuntu](#on-debianubuntu)
     * [On CentOS / OpenSuse / Fedora](#on-centos--opensuse--fedora)
-    * [On MacOS X 10.8](#on-macos-x-108)
+    * [On MacOS X 10.8](#on-macos-x-108-and-later)
   * [Using](#using)
   * [Running test suite](#running-test-suite)
   * [Building from the source](#building-from-the-source)
