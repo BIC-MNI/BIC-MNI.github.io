@@ -60,6 +60,7 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
 * 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail 
   * Ubuntu , also nu_correct produces different results then 64 bit version
     * [1.9.15 Ubuntu 14.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.15-20170529-Ubuntu_14.04-i686.deb) 
+    * [1.9.15 Ubuntu 16.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.15-20170529-Ubuntu_16.04-i686.deb) 
 * Source code
   * minc-toolkit complete source archive
     * [1.9.15 tar.bz2 archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.15-20170529.tar.bz2)
