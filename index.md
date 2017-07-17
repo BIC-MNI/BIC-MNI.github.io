@@ -49,7 +49,7 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
 * 64 bit tools
   * Ubuntu
     * [1.9.15 Ubuntu 14.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.15-20170529-Ubuntu_14.04-x86_64.deb)
-    * [1.9.15 Ubuntu 16.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.15-20170529-Ubuntu_15.04-x86_64.deb)
+    * [1.9.15 Ubuntu 16.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.15-20170529-Ubuntu_16.04-x86_64.deb)
   * Debian
     * [1.9.15 Debian-8.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.15-20170529-Debian_8.7-x86_64.deb)
   * Redhat-based
