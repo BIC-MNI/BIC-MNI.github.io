@@ -5,8 +5,9 @@ title: BIC-MNI Software repository
 ## Contents:
 * [MINC Toolkit](#MINC-Tool-Kit)
   * [MINC Toolkit versions](#notes-about-versions)
-  * Version 2 [Version 1.9.16](#v2-version-1915) 
+  * Version 2 [Version 1.9.16](#v2-version-1916) 
   * Version 1 [Version 1.0.09](#v1-version-1009-legacy) *Legacy*
+  * [Containers](#containers)
   * [Virtual Machine](#virtual-machine)
   * [Data files and models](#data-files-and-models)
   * [Previous versions](#previous-versions)
