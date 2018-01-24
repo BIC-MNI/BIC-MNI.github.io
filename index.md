@@ -5,7 +5,7 @@ title: BIC-MNI Software repository
 ## Contents:
 * [MINC Toolkit](#MINC-Tool-Kit)
   * [MINC Toolkit versions](#notes-about-versions)
-  * Version 2 [Version 1.9.15](#v2-version-1915) 
+  * Version 2 [Version 1.9.16](#v2-version-1915) 
   * Version 1 [Version 1.0.09](#v1-version-1009-legacy) *Legacy*
   * [Virtual Machine](#virtual-machine)
   * [Data files and models](#data-files-and-models)
@@ -42,31 +42,32 @@ project (standard_pipeline.pl) Everything is currently installed in /opt/minc , 
   The standard minc-based programs are kept up-to date, but new experimental software is not included. Use this version if you need 
   only basic minc tools (i.e register/Display/xdisp) or you are running a legacy image processing pipeline that does not require new tools.
 
-### V2 Version 1.9.15
-This version includes ITK-4.9, latest version of Elastix, ANTs and C3D - all with minc support. **WARNING** some basic tools produce results incompatible with version 1.00.XX Test-suite will fail due to changes in minctracc
+### V2 Version 1.9.16
+This version includes ITK-4.13.0, latest version of Elastix, ANTs and C3D - all with minc support. **WARNING** some basic tools produce results incompatible with version 1.00.XX Test-suite will fail due to changes in minctracc
 All files will be installed into /opt/minc-itk4 in order to co-exist with version 1 of minc-toolkit
 
 * 64 bit tools
   * Ubuntu
-    * [1.9.15 Ubuntu 14.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.15-20170529-Ubuntu_14.04-x86_64.deb)
-    * [1.9.15 Ubuntu 16.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.15-20170529-Ubuntu_16.04-x86_64.deb)
+    * [1.9.16 Ubuntu 14.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.16-20180117-Ubuntu_14.04-x86_64.deb)
+    * [1.9.16 Ubuntu 16.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.16-20180117-Ubuntu_16.04-x86_64.deb)
   * Debian
-    * [1.9.15 Debian-8.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.15-20170529-Debian_8.7-x86_64.deb)
+    * [1.9.16 Debian-8.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.16-20180117-Debian_8.7-x86_64.deb)
   * Redhat-based
-    * [1.9.15 CentOS 7.3](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.15-20170529-CentOS_7.3.1611-x86_64.rpm)
-    * [1.9.15 Fedora 25](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.15-20170529-Fedora_25-x86_64.rpm)
+    * [1.9.16 CentOS 7.3](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.16-20180117-CentOS_7.3.1611-x86_64.rpm)
+    * [1.9.16 Fedora 23](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.16-20180117-Fedora_23-x86_64.rpm)
+    * [1.9.16 Fedora 25](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.16-20180117-Fedora_25-x86_64.rpm)
   * MacOS X
-    * [1.9.15 MacOS X 10.8 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.9.15-20170529-Darwin-10.8-x86_64.dmg)
+    * [1.9.16 MacOS X 10.8 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.9.16-20180117-Darwin-10.8-x86_64.dmg)
 * 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail 
   * Ubuntu , also nu_correct produces different results then 64 bit version
-    * [1.9.15 Ubuntu 14.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.15-20170529-Ubuntu_14.04-i686.deb) 
-    * [1.9.15 Ubuntu 16.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.15-20170529-Ubuntu_16.04-i686.deb) 
+    * [1.9.16 Ubuntu 14.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.16-20180117-Ubuntu_14.04-i686.deb) 
+    * [1.9.16 Ubuntu 16.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.16-20180117-Ubuntu_16.04-i686.deb) 
 * Source code
   * minc-toolkit complete source archive
-    * [1.9.15 tar.bz2 archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.15-20170529.tar.bz2)
+    * [1.9.16 tar.bz2 archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.16.tar.bz2)
 
 ### V1 Version 1.0.09 *legacy*
-- 64 bit tools
+* 64 bit tools
   * Ubuntu
     * [1.0.09 Ubuntu 14.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_14.04-x86_64.deb)
     * [1.0.09 Ubuntu 16.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_16.04-x86_64.deb)
@@ -76,19 +77,27 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
     * [1.0.09 CentOS 7.3](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-CentOS_7.3.1611-x86_64.rpm)
   * MacOS X 
     * [1.0.09 MacOS X 10.8](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.0.09-20170529-Darwin-10.8-x86_64.dmg)
-- 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail (and the test-suite will also fail).
+* 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail (and the test-suite will also fail).
   * Ubuntu
     * [1.0.09 Ubuntu 14.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_14.04-i686.deb) 
     * [1.0.09 Ubuntu 16.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_16.04-i686.deb)
-- Source code
+* Source code
   * minc-toolkit complete source archive
     * [1.0.09 tar.gz archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-1.0.09-20170529.tar.bz2)
-- Testsuite (under development)
+* Testsuite (under development)
     * [0.1.3 Debian/Ubuntu](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-testsuite-0.1.3-20131212.deb)
     * [0.1.3 CentOS 6.4](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-testsuite-0.1.3-20131212.rpm) 
     * [0.1.3 MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-testsuite-0.1.3-20131212.dmg)
 
-    
+### Containers
+* Containers based on Ubuntu 16.04 64bit and include  R 3.4.3 + tidyverse + RMINC 1.5.1.0 , python 2.7 + pyminc + pyezminc + minc2_simple, and also standard anatomical models and beast templates installed in `/opt/minc`
+  * Docker minc-toolkit-v2 1.9.16: `docker pull nistmni/minc-toolkit:1.9.16`
+  * Docker minc-toolkit-v1 1.0.09: `docker pull nistmni/minc-toolkit:1.9.16`
+  * Singularity minc-toolkit-v2 1.9.16: `singularity pull --name minc-toolkit-1.9.16.simg shub://vfonov/minc-toolkit-containers:1.9.16`
+* Containers without visual tools (Register, Display and ray_trace are missing) and without anatomical models:
+  * Docker minc-toolkit-v2 1.9.16: `docker pull nistmni/minc-toolkit-min:1.9.16`
+  * Singulatity minc-toolkit-v2 1.9.16: `singularity pull --name minc-toolkit-1.9.16-min.simg shub://vfonov/vfonov/minc-toolkit-containers:1.9.16-min`
+
 ### Virtual Machine
 
 A virtual machine containing minc-toolkit, as well as a number of tools built upon it is available for download at [CoBrALab/MINC-VM](https://github.com/CobraLab/MINC-VM)
@@ -131,8 +140,8 @@ Previous versions are archived in [http://packages.bic.mni.mcgill.ca/minc-toolki
 ### Using
 * Version **1.0.09 (version 1)**:
    source the environment in `/opt/minc/1.0.09/minc-toolkit-config.sh` for bash or `/opt/minc/1.0.09/minc/minc-toolkit-config.csh` for tcsh 
-* Version **1.9.15 (version 2)**:
-   source the environment in `/opt/minc/1.9.15/minc-toolkit-config.sh` for bash or `/opt/minc/1.9.15/minc-toolkit-config.csh` for tcsh 
+* Version **1.9.16 (version 2)**:
+   source the environment in `/opt/minc/1.9.16/minc-toolkit-config.sh` for bash or `/opt/minc/1.9.16/minc-toolkit-config.csh` for tcsh 
 
 ### Running test suite 
 **Currently Broken** Test data is installed in `/opt/minc/share/testsuite/`.  To run the test, execute `/opt/minc/run_tests.sh <prefix>`, it will take around
