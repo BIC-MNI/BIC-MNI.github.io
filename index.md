@@ -93,7 +93,7 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
 ### Containers
 * Containers based on Ubuntu 16.04 64bit and include  R 3.4.3 + tidyverse + RMINC 1.5.1.0 , python 2.7 + pyminc + pyezminc + minc2_simple, and also standard anatomical models and beast templates installed in `/opt/minc`
   * Docker minc-toolkit-v2 1.9.16: `docker pull nistmni/minc-toolkit:1.9.16`
-  * Docker minc-toolkit-v1 1.0.09: `docker pull nistmni/minc-toolkit:1.9.16`
+  * Docker minc-toolkit-v1 1.0.09: `docker pull nistmni/minc-toolkit:1.0.09`
   * Singularity minc-toolkit-v2 1.9.16: `singularity pull --name minc-toolkit-1.9.16.simg shub://vfonov/minc-toolkit-containers:1.9.16`
 * Containers without visual tools (Register, Display and ray_trace are missing) and without anatomical models:
   * Docker minc-toolkit-v2 1.9.16: `docker pull nistmni/minc-toolkit-min:1.9.16`
