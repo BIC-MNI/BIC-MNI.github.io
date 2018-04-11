@@ -45,7 +45,7 @@ project (standard_pipeline.pl) Everything is currently installed in /opt/minc , 
 
 ### V2 Version 1.9.16
 This version includes ITK-4.13.0, latest version of Elastix, ANTs and C3D - all with minc support. **WARNING** some basic tools produce results incompatible with version 1.00.XX Test-suite will fail due to changes in minctracc
-All files will be installed into /opt/minc-itk4 in order to co-exist with version 1 of minc-toolkit
+All files will be installed into /opt/minc/1.9.16 in order to co-exist with other versions of minc-toolkit
 
 * 64 bit tools
   * Ubuntu
@@ -68,6 +68,7 @@ All files will be installed into /opt/minc-itk4 in order to co-exist with versio
     * [1.9.16 tar.bz2 archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.16.tar.bz2)
 
 ### V1 Version 1.0.09 *legacy*
+All files will be installed into /opt/minc/1.0.09 in order to co-exist with other versions of minc-toolkit
 * 64 bit tools
   * Ubuntu
     * [1.0.09 Ubuntu 14.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_14.04-x86_64.deb)
