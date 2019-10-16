@@ -63,7 +63,7 @@ All files will be installed into /opt/minc/1.9.17 in order to co-exist with othe
     * [1.9.17 Fedora 28](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.17-20190313-Fedora_28-x86_64.rpm)
     * [1.9.17 Fedora 29](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.17-20190313-Fedora_29-x86_64.rpm)
   * MacOS X
-    * [1.9.17 MacOS X 10.8 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.9.17-20180117-Darwin-10.8-x86_64.dmg)
+    * [1.9.17 MacOS X 10.10 or later](https://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.9.17-20180808-Darwin-10.10-x86_64.dmg)
 * 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail
   * Ubuntu , also nu_correct produces different results then 64 bit version
     * [1.9.17 Ubuntu 16.04 or newer](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.17-20190313-Ubuntu_16.04-i686.deb)
