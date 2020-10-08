@@ -37,7 +37,7 @@ project (standard_pipeline.pl) Everything is currently installed in ``/opt/minc/
 
 ### Notes about versions
 * **1.9.XX** - includes the same standard minc-tools as version 1.0.XX, but sometimes with updated parameters (minctracc so far is the only such program).
-  Also includes new experimental software based on ITK 4.XX and latest versions of ANTS,Elastix and C3D.
+  Also includes new experimental software based on ITK 4.XX and recent versions of ANTS and Elastix.
   **Use this version**
 * **1.0.XX** - is a legacy version that still includes all the latest versions of the minc tools, and several programs based on ITK 3.20.
   The standard minc-based programs are kept up-to date, but new experimental software is not included. Use this version if you need
@@ -50,10 +50,11 @@ All files will be installed into /opt/minc/1.9.18 in order to co-exist with othe
 * 64 bit tools
   * Ubuntu
     * [1.9.18 Ubuntu 16.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_16.04-x86_64.deb)
+    * [1.9.18 Ubuntu 18.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_18.04-x86_64.deb)
     * [1.9.18 Ubuntu 20.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_20.04-x86_64.deb)
   * Debian
     * [1.9.18 Debian-8.11](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Debian_8.11-x86_64.deb)
-    * [1.9.18 Debian-9.12](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Debian_9.12-x86_64.deb)
+    * [1.9.18 Debian-9.33](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Debian_9.13-x86_64.deb)
     * [1.9.18 Debian-10](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Debian_10-x86_64.deb)
   * Redhat-based
     * [1.9.18 CentOS 6.10](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-CentOS_6.10-x86_64.rpm)
@@ -61,11 +62,14 @@ All files will be installed into /opt/minc/1.9.18 in order to co-exist with othe
     * [1.9.18 CentOS 8.2](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-CentOS_8.2.2004-x86_64.rpm)
     * [1.9.18 Fedora 31](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-Fedora_31-x86_64.rpm)
     * [1.9.18 Fedora 32](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-Fedora_32-x86_64.rpm)
+    * [1.9.18 Fedora 33](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-Fedora_33-x86_64.rpm)
   * MacOS X
-    * [1.9.18 MacOS X 10.8 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.9.18-20200825-Darwin-10.9-x86_64.dmg)
-* 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail
-  * Ubuntu , also nu_correct produces different results then 64 bit version
-    * [1.9.18 Ubuntu 16.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_16.04-i686.deb)
+    * [1.9.18 MacOS X 10.8](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.9.18-20200825-Darwin-10.9-x86_64.dmg)
+* 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail, also nu_correct produces different results then 64 bit version
+  * Ubuntu
+    * [1.9.18 Ubuntu 16.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_16.04-i686.deb)
+  * RPM based
+    * [1.9.18 CentOS 6.10](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-CentOS_6.10-i686.rpm)
 * Source code
   * minc-toolkit complete source archive
     * [1.9.18 tar.bz2 archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.18.tar.bz2)
@@ -74,15 +78,16 @@ All files will be installed into /opt/minc/1.9.18 in order to co-exist with othe
 All files will be installed into /opt/minc/1.0.09 in order to co-exist with other versions of minc-toolkit
 * 64 bit tools
   * Ubuntu
-    * [1.0.09 Ubuntu 14.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_14.04-x86_64.deb)
-    * [1.0.09 Ubuntu 16.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_16.04-x86_64.deb)
-    * [1.0.09 Ubuntu 18.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_18.04-x86_64.deb)
+    * [1.0.09 Ubuntu 14.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_14.04-x86_64.deb)
+    * [1.0.09 Ubuntu 16.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_16.04-x86_64.deb)
+    * [1.0.09 Ubuntu 18.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_18.04-x86_64.deb)
     * [1.0.09 Ubuntu 18.10](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_18.10-x86_64.deb)
-    * [1.0.09 Ubuntu 20.04 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_20.04-x86_64.deb)
+    * [1.0.09 Ubuntu 20.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_20.04-x86_64.deb)
   * Debian
     * [1.0.09 Debian-8.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_8.7-x86_64.deb)
     * [1.0.09 Debian-8.11](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_8.11-x86_64.deb)
     * [1.0.09 Debian-9.8](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_9.8-x86_64.deb)
+    * [1.0.09 Debian-9.13](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_9.13-x86_64.deb)
   * RPM based
     * [1.0.09 CentOS 6.10](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-CentOS_6.10-x86_64.rpm)
     * [1.0.09 CentOS 7.3](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-CentOS_7.3.1611-x86_64.rpm)
@@ -93,7 +98,7 @@ All files will be installed into /opt/minc/1.0.09 in order to co-exist with othe
     * [1.0.09 MacOS X 10.8](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.0.09-20170529-Darwin-10.8-x86_64.dmg)
 * 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail (and the test-suite will also fail).
   * Ubuntu
-    * [1.0.09 Ubuntu 16.04 or later](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_16.04-i686.deb)
+    * [1.0.09 Ubuntu 16.04](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_16.04-i686.deb)
   * RPM based
     * [1.0.09 CentOS 6.10](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-CentOS_6.10-i686.rpm)
 * Source code
@@ -109,12 +114,12 @@ Older packages are archived at https://packages.bic.mni.mcgill.ca/minc-toolkit/D
 
 ### Containers
 * Containers based on Ubuntu 16.04 64bit and include  R 3.4.3 + tidyverse + RMINC 1.5.1.0 , python 2.7 + pyminc + pyezminc + minc2_simple, and also standard anatomical models and beast templates installed in `/opt/minc`
-  * Docker minc-toolkit-v2 1.9.17: `docker pull nistmni/minc-toolkit:1.9.17`
+  * Docker minc-toolkit-v2 1.9.17: `docker pull nistmni/minc-toolkit:1.9.16`
   * Docker minc-toolkit-v1 1.0.09: `docker pull nistmni/minc-toolkit:1.0.09`
-  * Singularity minc-toolkit-v2 1.9.17: `singularity pull --name minc-toolkit-1.9.17.simg shub://vfonov/minc-toolkit-containers:1.9.17`
+  * Singularity minc-toolkit-v2 1.9.16: `singularity pull --name minc-toolkit-1.9.16.simg shub://vfonov/minc-toolkit-containers:1.9.16`
 * Containers without visual tools (Register, Display and ray_trace are missing) and without anatomical models:
-  * Docker minc-toolkit-v2 1.9.17: `docker pull nistmni/minc-toolkit-min:1.9.17`
-  * Singulatity minc-toolkit-v2 1.9.17: `singularity pull --name minc-toolkit-1.9.17-min.simg shub://vfonov/vfonov/minc-toolkit-containers:1.9.17-min`
+  * Docker minc-toolkit-v2 1.9.16: `docker pull nistmni/minc-toolkit-min:1.9.16`
+  * Singulatity minc-toolkit-v2 1.9.16: `singularity pull --name minc-toolkit-1.9.16-min.simg shub://vfonov/vfonov/minc-toolkit-containers:1.9.16-min`
 
 ### Virtual Machine
 
@@ -177,5 +182,5 @@ Consult [minc-toolkit on github](https://github.com/BIC-MNI/minc-toolkit) or [mi
 
 ### ITK-SNAP 3.2
 * MacOS X
-  * [MacOS X 10.7 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-x86_64-qt4.dmg) - QT 4 version (doesn't support retina display)
-  * [MacOS X 10.11 or later](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-10.11-x86_64-qt5.dmg) - QT 5 version
+  * [MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-x86_64-qt4.dmg) - QT 4 version (doesn't support retina display)
+  * [MacOS X 10.11](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-10.11-x86_64-qt5.dmg) - QT 5 version
