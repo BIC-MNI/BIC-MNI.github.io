@@ -25,7 +25,7 @@ title: BIC-MNI Software repository
 This software repository contains open-source tools developed at the McConnell Brain Imaging Centre, Montreal Neurological Institute
 The main documentation site for this repository is located at [wikibooks](https://en.wikibooks.org/wiki/MINC)
 
-Also, concise man pages for various minc tools are located at [bic-mni.github.io/man-pages](http://bic-mni.github.io/man-pages/)
+Also, concise man pages for various minc tools are located at [bic-mni.github.io/man-pages](https://bic-mni.github.io/man-pages/)
 
 ## Support
 Contact @vfonov, @andrewjanke, @gdevenyi or @rdvincent if you have any questions
@@ -49,53 +49,53 @@ All files will be installed into /opt/minc/1.9.18 in order to co-exist with othe
 
 * 64 bit tools
   * Ubuntu
-    * [1.9.18 Ubuntu 16.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_16.04-x86_64.deb)
-    * [1.9.18 Ubuntu 18.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_18.04-x86_64.deb)
-    * [1.9.18 Ubuntu 20.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_20.04-x86_64.deb)
+    * [1.9.18 Ubuntu 16.04](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_16.04-x86_64.deb)
+    * [1.9.18 Ubuntu 18.04](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_18.04-x86_64.deb)
+    * [1.9.18 Ubuntu 20.04](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_20.04-x86_64.deb)
   * Debian
-    * [1.9.18 Debian-8.11](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Debian_8.11-x86_64.deb)
-    * [1.9.18 Debian-9.33](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Debian_9.13-x86_64.deb)
-    * [1.9.18 Debian-10](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Debian_10-x86_64.deb)
+    * [1.9.18 Debian-8.11](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Debian_8.11-x86_64.deb)
+    * [1.9.18 Debian-9.33](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Debian_9.13-x86_64.deb)
+    * [1.9.18 Debian-10](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Debian_10-x86_64.deb)
   * Redhat-based
-    * [1.9.18 CentOS 6.10](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-CentOS_6.10-x86_64.rpm)
-    * [1.9.18 CentOS 7.8](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-CentOS_7.8.2003-x86_64.rpm)
-    * [1.9.18 CentOS 8.2](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-CentOS_8.2.2004-x86_64.rpm)
-    * [1.9.18 Fedora 31](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-Fedora_31-x86_64.rpm)
-    * [1.9.18 Fedora 32](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-Fedora_32-x86_64.rpm)
-    * [1.9.18 Fedora 33](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-Fedora_33-x86_64.rpm)
+    * [1.9.18 CentOS 6.10](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-CentOS_6.10-x86_64.rpm)
+    * [1.9.18 CentOS 7.8](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-CentOS_7.8.2003-x86_64.rpm)
+    * [1.9.18 CentOS 8.2](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-CentOS_8.2.2004-x86_64.rpm)
+    * [1.9.18 Fedora 31](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-Fedora_31-x86_64.rpm)
+    * [1.9.18 Fedora 32](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-Fedora_32-x86_64.rpm)
+    * [1.9.18 Fedora 33](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-Fedora_33-x86_64.rpm)
   * MacOS X
-    * [1.9.18 MacOS X 10.8](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.9.18-20200825-Darwin-10.9-x86_64.dmg)
+    * [1.9.18 MacOS X 10.8](https://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.9.18-20200825-Darwin-10.9-x86_64.dmg)
 * 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail, also nu_correct produces different results then 64 bit version
   * Ubuntu
-    * [1.9.18 Ubuntu 16.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_16.04-i686.deb)
+    * [1.9.18 Ubuntu 16.04](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.9.18-20200813-Ubuntu_16.04-i686.deb)
   * RPM based
-    * [1.9.18 CentOS 6.10](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-CentOS_6.10-i686.rpm)
+    * [1.9.18 CentOS 6.10](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.9.18-20200813-CentOS_6.10-i686.rpm)
 * Source code
   * minc-toolkit complete source archive
-    * [1.9.18 tar.bz2 archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.18.tar.bz2)
+    * [1.9.18 tar.bz2 archive](https://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-v2-1.9.18.tar.bz2)
 
 ### V1 Version 1.0.09 *legacy*
 All files will be installed into /opt/minc/1.0.09 in order to co-exist with other versions of minc-toolkit
 * 64 bit tools
   * Ubuntu
-    * [1.0.09 Ubuntu 14.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_14.04-x86_64.deb)
-    * [1.0.09 Ubuntu 16.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_16.04-x86_64.deb)
-    * [1.0.09 Ubuntu 18.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_18.04-x86_64.deb)
+    * [1.0.09 Ubuntu 14.04](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_14.04-x86_64.deb)
+    * [1.0.09 Ubuntu 16.04](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_16.04-x86_64.deb)
+    * [1.0.09 Ubuntu 18.04](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_18.04-x86_64.deb)
     * [1.0.09 Ubuntu 18.10](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_18.10-x86_64.deb)
-    * [1.0.09 Ubuntu 20.04](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_20.04-x86_64.deb)
+    * [1.0.09 Ubuntu 20.04](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_20.04-x86_64.deb)
   * Debian
-    * [1.0.09 Debian-8.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_8.7-x86_64.deb)
-    * [1.0.09 Debian-8.11](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_8.11-x86_64.deb)
-    * [1.0.09 Debian-9.8](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_9.8-x86_64.deb)
-    * [1.0.09 Debian-9.13](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_9.13-x86_64.deb)
+    * [1.0.09 Debian-8.7](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_8.7-x86_64.deb)
+    * [1.0.09 Debian-8.11](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_8.11-x86_64.deb)
+    * [1.0.09 Debian-9.8](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_9.8-x86_64.deb)
+    * [1.0.09 Debian-9.13](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Debian_9.13-x86_64.deb)
   * RPM based
-    * [1.0.09 CentOS 6.10](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-CentOS_6.10-x86_64.rpm)
-    * [1.0.09 CentOS 7.3](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-CentOS_7.3.1611-x86_64.rpm)
-    * [1.0.09 CentOS 8.2](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-CentOS_8.2.2004-x86_64.rpm)
-    * [1.0.09 Fedora 31](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-Fedora_31-x86_64.rpm)
-    * [1.0.09 Fedora 32](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-Fedora_32-x86_64.rpm)
+    * [1.0.09 CentOS 6.10](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-CentOS_6.10-x86_64.rpm)
+    * [1.0.09 CentOS 7.3](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-CentOS_7.3.1611-x86_64.rpm)
+    * [1.0.09 CentOS 8.2](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-CentOS_8.2.2004-x86_64.rpm)
+    * [1.0.09 Fedora 31](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-Fedora_31-x86_64.rpm)
+    * [1.0.09 Fedora 32](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-Fedora_32-x86_64.rpm)
   * MacOS X
-    * [1.0.09 MacOS X 10.8](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.0.09-20170529-Darwin-10.8-x86_64.dmg)
+    * [1.0.09 MacOS X 10.8](https://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-1.0.09-20170529-Darwin-10.8-x86_64.dmg)
 * 32 bit tools **Caveat Emptor** Unfortunately, currently `mincbeast` is unable to run in 32bit mode properly, so `standard_pipelene.pl` will fail (and the test-suite will also fail).
   * Ubuntu
     * [1.0.09 Ubuntu 16.04](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-1.0.09-20170529-Ubuntu_16.04-i686.deb)
@@ -103,11 +103,11 @@ All files will be installed into /opt/minc/1.0.09 in order to co-exist with othe
     * [1.0.09 CentOS 6.10](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-1.0.09-20170529-CentOS_6.10-i686.rpm)
 * Source code
   * minc-toolkit complete source archive
-    * [1.0.09 tar.gz archive](http://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-1.0.09-20170529.tar.bz2)
+    * [1.0.09 tar.gz archive](https://packages.bic.mni.mcgill.ca/minc-toolkit/minc-toolkit-1.0.09-20170529.tar.bz2)
 * Testsuite (under development)
-    * [0.1.3 Debian/Ubuntu](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-testsuite-0.1.3-20131212.deb)
-    * [0.1.3 CentOS 6.4](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-testsuite-0.1.3-20131212.rpm)
-    * [0.1.3 MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-testsuite-0.1.3-20131212.dmg)
+    * [0.1.3 Debian/Ubuntu](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/minc-toolkit-testsuite-0.1.3-20131212.deb)
+    * [0.1.3 CentOS 6.4](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/minc-toolkit-testsuite-0.1.3-20131212.rpm)
+    * [0.1.3 MacOS X 10.7](https://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/minc-toolkit-testsuite-0.1.3-20131212.dmg)
 
 ### Older Versions
 Older packages are archived at https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian for Ubuntu/Debian and https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/ for CentOS, Fedora and RedHat
@@ -130,17 +130,17 @@ It is kept up to date with the latest releases of minc-toolkit and additional to
 These packages contain anatomical models needed for standard pipeline, all files are installed into `/opt/minc/share`
 
   * BEaST segmentation library, needed to run mincbeast software for brain extraction
-    * [1.1.0 Debian/Ubuntu](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/beast-library-1.1.0-20121212.deb)
-    * [1.1.0 CentOS](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/beast-library-1.1.0-20121212.rpm)
-    * [1.1.0 MacOS X](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/beast-library-1.1.0-20121212.dmg)
-  * bic-mni-models  anatomical template library,  includes models from [ICBM 2009 template](http://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009)
-    * [0.1.1 Debian/Ubuntu](http://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/bic-mni-models-0.1.1-20120421.deb)
-    * [0.1.1 CentOS 6.4](http://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/bic-mni-models-0.1.1-20120421.rpm)
-    * [0.1.1 MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/bic-mni-models-0.1.1-20120421.dmg)
+    * [1.1.0 Debian/Ubuntu](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/beast-library-1.1.0-20121212.deb)
+    * [1.1.0 CentOS](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/beast-library-1.1.0-20121212.rpm)
+    * [1.1.0 MacOS X](https://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/beast-library-1.1.0-20121212.dmg)
+  * bic-mni-models  anatomical template library,  includes models from [ICBM 2009 template](https://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009)
+    * [0.1.1 Debian/Ubuntu](https://packages.bic.mni.mcgill.ca/minc-toolkit/Debian/bic-mni-models-0.1.1-20120421.deb)
+    * [0.1.1 CentOS 6.4](https://packages.bic.mni.mcgill.ca/minc-toolkit/RPM/bic-mni-models-0.1.1-20120421.rpm)
+    * [0.1.1 MacOS X 10.7](https://packages.bic.mni.mcgill.ca/minc-toolkit/MacOSX/bic-mni-models-0.1.1-20120421.dmg)
 
 ### Previous versions
 
-Previous versions are archived in [http://packages.bic.mni.mcgill.ca/minc-toolkit/](http://packages.bic.mni.mcgill.ca/minc-toolkit/)
+Previous versions are archived in [https://packages.bic.mni.mcgill.ca/minc-toolkit/](https://packages.bic.mni.mcgill.ca/minc-toolkit/)
 
 ### Installing
 
@@ -161,7 +161,7 @@ Previous versions are archived in [http://packages.bic.mni.mcgill.ca/minc-toolki
 
 #### On MacOS X 10.8 and later
 * download and double click on  appropriate dmg file, the standard MacOS X installer will start
-* install ImageMagick, either using [mac ports](https://www.macports.org/install.php) - preferred or [homebrew](http://brew.sh/)
+* install ImageMagick, either using [mac ports](https://www.macports.org/install.php) - preferred or [homebrew](https://brew.sh/)
 
 ### Using
 * Version **1.0.09 (version 1)**:
@@ -182,5 +182,5 @@ Consult [minc-toolkit on github](https://github.com/BIC-MNI/minc-toolkit) or [mi
 
 ### ITK-SNAP 3.2
 * MacOS X
-  * [MacOS X 10.7](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-x86_64-qt4.dmg) - QT 4 version (doesn't support retina display)
-  * [MacOS X 10.11](http://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-10.11-x86_64-qt5.dmg) - QT 5 version
+  * [MacOS X 10.7](https://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-x86_64-qt4.dmg) - QT 4 version (doesn't support retina display)
+  * [MacOS X 10.11](https://packages.bic.mni.mcgill.ca/minc-toolkit/third-party/itksnap-3.4.0-20151130-MacOS-10.11-x86_64-qt5.dmg) - QT 5 version
